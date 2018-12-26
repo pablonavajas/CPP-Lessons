@@ -2,7 +2,7 @@
 
 int main() 
 {
-  int dog_name;
+  string dog_name;
   // Dog age calculator for dogs older than 2
   int dog_age;
   int early_years;
