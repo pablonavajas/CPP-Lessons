@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() 
+{
+  
+  double p, q, c;
+  double dollars;
+  
+  std::cout << "Enter number of Mexican Pesos: ";
+  std::cin >> p;
+  
+  std::cout << "Enter number of Guatemalan Quetzals: ";
+  std::cin >> q;
+  
+  std::cout << "Enter number of Salvadoran Colóns: ";
+  std::cin >> c;
+  
+  dollars = (p/19.94)+(q/7.73)+(c*0.11);
+  
+  std::cout << "US Dollars = $" << dollars << "\n";
+   
+}
