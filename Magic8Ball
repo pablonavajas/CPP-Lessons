@@ -1,0 +1,97 @@
+#include <iostream>
+#include <stdlib.h>
+
+int main() {
+  
+  std::cout << "MAGIC 8-BALL:\n\n";
+  
+  srand(time(NULL));
+  
+  int option = rand() % 20;
+  
+  if (option == 0) {
+    std::cout << "It is certain.";
+  }
+  
+  else if (option == 1) {
+    std::cout << "It is decidedly so.";
+  }
+  
+  else if (option == 2) {
+    std::cout << "Without a doubt.";
+  }
+  
+  else if (option == 3) {
+    std::cout << "Yes - definitely.";
+  }
+  
+  else if (option == 4) {
+    std::cout << "You may rely on it.";
+  }
+  
+  else if (option == 5) {
+    std::cout << "As I see it, yes.";
+  }
+  
+  else if (option == 6) {
+    std::cout << "Most likely.";
+  }
+  
+  else if (option == 7) {
+    std::cout << "Outlook good.";
+  }
+  
+  else if (option == 8) {
+    std::cout << "Yes.";
+  }
+  
+  else if (option == 9) {
+    std::cout << "Signs point to yes.";
+  }
+  
+  else if (option == 10) {
+    std::cout << "Without a doubt.";
+  }
+  
+  else if (option == 11) {
+    std::cout << "Reply hazy, try again.";
+  }
+  
+  else if (option == 12) {
+    std::cout << "Ask again later.";
+  }
+  
+  else if (option == 13) {
+    std::cout << "Better not tell you now.";
+  }
+  
+  else if (option == 14) {
+    std::cout << "Cannot predict now.";
+  }
+  
+  else if (option == 15) {
+    std::cout << "Concentrate and ask again.";
+  }
+  
+  else if (option == 16) {
+    std::cout << "Don't count on it.";
+  }
+  
+  else if (option == 17) {
+    std::cout << "My reply is no.";
+  }
+  
+  else if (option == 18) {
+    std::cout << "My sources say no.";
+  }
+  
+  else if (option == 19) {
+    std::cout << "Outlook not so good.";
+  }
+  
+  else {
+    std::cout << "Very doubtful.";
+  }
+  return 0;
+  
+  }
